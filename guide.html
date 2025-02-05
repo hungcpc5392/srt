@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cách lấy Gemini API Key</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="/">
+            <img src="images/logo.png" alt="Logo" style="height: 30px; margin-right: 10px;">
+            SRT Translator
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/guide">Cách lấy Gemini API Key</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container mt-5 pt-5">
+            <h1>Hướng dẫn lấy Gemini API Key</h1>
+            <p>Để sử dụng SRT Translator, bạn cần có Gemini API Key. Dưới đây là cách để lấy API Key:</p>
+            <ol>
+                <li>Vào trang <a href="https://aistudio.google.com/app/u/1/apikey" target="_blank">Google AI Studio</a>.</li>
+                <li>Đăng nhập tài khoản Google</li>
+                <li>Click nút "Create API key" và làm theo hình dưới đây</li>
+                <img src="images/create2.png" alt="Create API Key" class="img-fluid">
+                <br>
+                <li>Copy API key và quay lại <a href="index.html">SRT Translator</a> để sử dụng</li>
+                <img src="images/apikey.png" alt="API Key" class="img-fluid">
+            </ol>
+            <div class="alert alert-warning" role="alert">
+                Chú ý: chỉ cần tạo API key 1 lần, có thể tái sử dụng ở những lần sau.
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="bg-light text-lg-start mt-auto">
+            <div class="container p-2">
+                <div class="row row-footer">
+                    <div>
+                        <h5 class="text-uppercase">Liên hệ</h5>
+                        <p>
+                            Nếu bạn có bất kỳ câu hỏi hoặc góp ý nào, vui lòng liên hệ với mình qua 
+                            <a href="https://forms.gle/vofHMMKnsn3rUeNbA" target="_blank">Google Form</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center p-1" style="background-color: rgba(0, 0, 0, 0.2);">
+                © <span id="currentYear"></span> SRT Translator
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+        <script>
+            window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+        </script>
+        <script defer src="/_vercel/insights/script.js"></script>
+    </body>
+</html>
